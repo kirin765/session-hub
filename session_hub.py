@@ -32,6 +32,7 @@ CODEX_DB = os.environ.get("CODEX_STATE_DB", os.path.join(HOME, ".codex/state_5.s
 
 OPENCODE_BIN = shutil.which("opencode") or "opencode"
 CODEX_BIN = shutil.which("codex") or "codex"
+UWSM_APP = shutil.which("uwsm-app")  # launch windows as proper desktop apps
 
 SOURCES = ["all", "opencode", "codex"]
 
